@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B634FC50-EECF-4731-88AC-7BC4CD2BAE81}</ProjectGuid>
+    <ProjectGuid>{BA7671E2-B703-47A5-BD1E-C91815FA57CB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SayHi</RootNamespace>
-    <AssemblyName>SayHi</AssemblyName>
+    <RootNamespace>ExactSumOfRealNumbers</RootNamespace>
+    <AssemblyName>ExactSumOfRealNumbers</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ExactSumOfRealNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
