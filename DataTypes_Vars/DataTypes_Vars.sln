@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriplesOfLetters", "Triples
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "Greeting\Greeting.csproj", "{30937F15-6509-4332-97FC-901CE36F8FE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorVolumeOfPyramid", "RefactorVolumeOfPyramid\RefactorVolumeOfPyramid.csproj", "{2DC6B588-4D3F-4DDD-AE2C-A95DB46701BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{30937F15-6509-4332-97FC-901CE36F8FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30937F15-6509-4332-97FC-901CE36F8FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30937F15-6509-4332-97FC-901CE36F8FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC6B588-4D3F-4DDD-AE2C-A95DB46701BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC6B588-4D3F-4DDD-AE2C-A95DB46701BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC6B588-4D3F-4DDD-AE2C-A95DB46701BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC6B588-4D3F-4DDD-AE2C-A95DB46701BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
