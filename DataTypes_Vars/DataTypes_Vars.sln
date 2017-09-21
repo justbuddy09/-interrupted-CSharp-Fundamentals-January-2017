@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialNumbers", "SpecialNu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriplesOfLetters", "TriplesOfLetters\TriplesOfLetters.csproj", "{F69B35DC-708A-44D5-B06A-FB3A11C9B1E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "Greeting\Greeting.csproj", "{30937F15-6509-4332-97FC-901CE36F8FE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F69B35DC-708A-44D5-B06A-FB3A11C9B1E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F69B35DC-708A-44D5-B06A-FB3A11C9B1E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F69B35DC-708A-44D5-B06A-FB3A11C9B1E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30937F15-6509-4332-97FC-901CE36F8FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30937F15-6509-4332-97FC-901CE36F8FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30937F15-6509-4332-97FC-901CE36F8FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30937F15-6509-4332-97FC-901CE36F8FE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

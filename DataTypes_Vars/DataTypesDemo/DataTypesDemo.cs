@@ -12,6 +12,7 @@ namespace DataTypesDemo
         public static void Main(string[] args)
         {
             // I am using this demo to test a code here
+
         }
     }
 }
