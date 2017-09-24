@@ -1,0 +1,3 @@
+From the link below you can see and practice the exercises.
+
+Exercises: https://judge.softuni.bg/Contests/206/Data-Types-and-Variables-Exercises

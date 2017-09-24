@@ -3,14 +3,14 @@ char - U+0000 to U+FFFF Size: Unicode 16-bit character
 
 sbyte - Range: -128 to 127 - Size: Signed 8-bit integer
 byte - Range: 0 to 255 - Size: Unsigned 8-bit integer
-short - Range: -32,768 to 32,767 - Size: Signed 16-bit integer
-ushort - Range: 0 to 65,535 - Size: Unsigned 16-bit integer
+short(5 digits) - Range: -32,768 to 32,767 - Size: Signed 16-bit integer
+ushort(5 digits) - Range: 0 to 65,535 - Size: Unsigned 16-bit integer
 float - Precision: 7 digits
-int - Range: -2,147,483,648 to 2,147,483,647 - Size: Signed 32-bit integer
-uint - Range: 0 to 4,294,967,295 - Size: Unsigned 32-bit integer
+int(10 digits) - Range: -2,147,483,648 to 2,147,483,647 - Size: Signed 32-bit integer
+uint(10 digits) - Range: 0 to 4,294,967,295 - Size: Unsigned 32-bit integer
 double - Precision: 15-16 digits significant digits
-long - Range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 - Size: Signed 64-bit integer
-ulong - Range: 0 to 18,446,744,073,709,551,615 - Size: Unsigned 64-bit integer
+long(19 digits) - Range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 - Size: Signed 64-bit integer
+ulong(20 digits) - Range: 0 to 18,446,744,073,709,551,615 - Size: Unsigned 64-bit integer
 decimal	- Precision: 28-29 significant digits
 
 ---------------
