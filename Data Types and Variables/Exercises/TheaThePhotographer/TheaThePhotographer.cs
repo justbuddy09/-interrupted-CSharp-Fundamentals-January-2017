@@ -15,14 +15,18 @@ namespace TheaThePhotographer
             byte percentageForFilter = byte.Parse(Console.ReadLine()); // photos that will be filtered (in %)
             int uploadSecondsPhoto = int.Parse(Console.ReadLine()); // time for every picture to be uploaded 
 
-            long goodPhotos = (int)Math.Ceiling((double)(photos * percentageForFilter) / 100);
+            // changed from int to long
+            long goodPhotos = (long)Math.Ceiling((((double)photos / 100) * percentageForFilter));
 
-            long filterSeconds = photos * filterTimePhoto;
+            // added long
+            long filterSeconds = (long)photos * filterTimePhoto;
             long uploadTimePhotos = goodPhotos * uploadSecondsPhoto;
 
             long totalSeconds = filterSeconds + uploadTimePhotos;
 
-            var totalTime = new TimeSpan(0, 0, totalSeconds); // how to use long here?
+            // var totalTime = new TimeSpan(0, 0, totalSeconds); // how to use long here?
+            // replaced the row above with the row below
+            TimeSpan totalTime = TimeSpan.FromSeconds(totalSeconds);
 
             Console.WriteLine(totalTime.ToString(@"d\:hh\:mm\:ss"));
         }
