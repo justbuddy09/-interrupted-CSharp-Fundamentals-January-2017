@@ -22,7 +22,7 @@ namespace TheaThePhotographer
 
             long totalSeconds = filterSeconds + uploadTimePhotos;
 
-            long totalTime = new TimeSpan(0, 0, totalSeconds); // how to convert a long to int?
+            var totalTime = new TimeSpan(0, 0, totalSeconds); // how to use long here?
 
             Console.WriteLine(totalTime.ToString(@"d\:hh\:mm\:ss"));
         }
